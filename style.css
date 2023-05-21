@@ -25,3 +25,15 @@
         -дозвольте елементам займати новий рядок в разі потреби*/
 /* 2.Вирівняйте текст всередині еллементів поцентру,
  як вертикально так і горизонтально, звісно ж, використовуючи flexbox */
+ .container {
+  display: flex;
+  gap: 15px;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-end;
+ }
+ .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
